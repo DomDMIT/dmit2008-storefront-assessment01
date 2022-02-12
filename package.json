@@ -1,0 +1,20 @@
+{
+  "name": "dmit2008-storefront-assessment01",
+  "version": "1.0.0",
+  "description": "My storefront project for assessment 1 in DMIT2008.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DomDMIT/dmit2008-storefront-assessment01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DomDMIT/dmit2008-storefront-assessment01/issues"
+  },
+  "homepage": "https://github.com/DomDMIT/dmit2008-storefront-assessment01#readme"
+}
