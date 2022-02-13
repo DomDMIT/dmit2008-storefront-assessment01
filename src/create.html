@@ -23,43 +23,54 @@
           </div>
         </div>
       </nav>
-      
-        <div class="d-flex flex-column flex-shrink-0 p-3" style="width: 280px; height: 100vh; background-color: #32233f;">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-          </a>
-          <hr>
-          <ul class="nav nav-pills flex-column mb-auto">
-            <li class="nav-item">
-              <a href="create.html" class="nav-link active" aria-current="page" style="background-color: #ff5555;">
-                + Add Product
-              </a>
-            </li>
-          </ul>
-          <hr>
-        </div>
 
         <main>
-          <form id="productForm">
 
-            <!-- GAME IMAGE UPLOAD -->
-            <!-- >>Image -->
-            <label for="gameCover">Select Game Cover</label>
-            <input type="file" id="gameCover" class="select-file" accept=".jpg, .png, .jpeg, .webp">
+          <div class="d-flex">
+            <div class="d-flex flex-column flex-shrink-0 p-3" style="width: 280px; height: 100vh; background-color: #32233f;">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              </a>
+              <hr>
+              <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                  <a href="create.html" class="nav-link active" aria-current="page" style="background-color: #ff5555;">
+                    + Add Product
+                  </a>
+                </li>
+              </ul>
+              <hr>
+            </div>
 
-            <!-- Game Title -->
-            <label for="gameTitle">Add Game Title</label>
-            <input type="text" id="gameTitle" placeholder="Game Title">
+            <form id="productForm">
+              
+              <div class="d-flex flex-column">
+                <!-- GAME IMAGE UPLOAD -->
+                <!-- >>Image -->
+                <label for="gameCover">Select Game Cover</label>
+                <input type="file" id="gameCover" class="select-file" accept=".jpg, .png, .jpeg, .webp">
 
-            <!-- Game Info -->
-            <label for="gamePrice">Price</label>
-            <input type="number" id="gamePrice">
+                <!-- Game Title -->
+                <label for="gameTitle">Add Game Title</label>
+                <input type="text" id="gameTitle" placeholder="Game Title">
 
-            <label for="ageRating">Age Rating</label>
-            <input type="text" id="ageRating">
+                <div class="d-flex flex-column">
+                  <!-- Game Info -->
+                  <label for="gamePrice">Price</label>
+                  <input type="number" id="gamePrice">
 
-            <label for="releaseDate">Release Date</label>
-            <input type="number" id="releaseDate">
-          </form>
+                  <label for="gameGenre">Genre</label>
+                  <input type="text" id="gameGenre">
+
+                  <label for="ageRating">Age Rating</label>
+                  <input type="text" id="ageRating">
+
+                  <label for="releaseDate">Release Date</label>
+                  <input type="number" id="releaseDate">
+                  </div>
+                </div>
+            </form>
+            </div>
+
         </main>
 </body>
 </html>
